@@ -1,0 +1,14 @@
+# 2011/08/26 jiwasaki
+# Install Manual var 1.01
+
+How to install Text::MeCab
+
+[STEP1] let's run installer.sh
+    set a env value (ROOT_DIR) :
+        # e.g.
+        ROOT_DIR=/home/hogehoge/myproject ./install.sh
+
+[STEP2] running installer.sh
+    configure option :
+        1) choice mecab-config directory ( $INSTALL_DIR/bin/mecab-config )
+        2) choice character set ( utf8 )
