@@ -33,9 +33,9 @@ if [ -e $INSTALL_DIR/bin/mecab-config ]; then
 
 else
 
-    wget 'http://downloads.sourceforge.net/project/mecab/mecab/0.98/mecab-0.98.tar.gz?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fmecab%2Ffiles%2Fmecab%2F0.98%2F&ts=1314180064&use_mirror=cdnetworks-kr-2'
-    tar zxvf 'mecab-0.98.tar.gz'
-    cd 'mecab-0.98'
+    wget 'http://mecab.googlecode.com/files/mecab-0.991.tar.gz'
+    tar zxvf 'mecab-0.991.tar.gz'
+    cd 'mecab-0.991'
     ./configure --prefix=$INSTALL_DIR --enable-utf8
     make 
     make install
